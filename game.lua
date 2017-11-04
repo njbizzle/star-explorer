@@ -50,7 +50,7 @@ local sheetOptions =
     }
 }
 
-local objectSheet = graphics.newImageSheet( "gameObjects.png", sheetOptions )
+local objectSheet = graphics.newImageSheet( "images/gameObjects.png", sheetOptions )
 
 -- Initialize variables
 local lives = 3
