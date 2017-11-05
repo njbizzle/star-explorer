@@ -32,12 +32,12 @@ function scene:create( event )
 	-- Code here runs when the scene is first created but has not yet appeared on screen
 
 	-- Load the background into composer's scene display group
-	local background = display.newImageRect( sceneGroup, "background.png", 800, 1400 )
+	local background = display.newImageRect( sceneGroup, "images/background.png", 800, 1400 )
 	background.x = display.contentCenterX
 	background.y = display.contentCenterY
 
 	-- Load the title into composer's scene display group 
-	local title = display.newImageRect( sceneGroup, "title.png", 500, 80 )
+	local title = display.newImageRect( sceneGroup, "images/title.png", 500, 80 )
 	title.x = display.contentCenterX
 	title.y = 200
 
